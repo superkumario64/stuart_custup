@@ -1,0 +1,22 @@
+uuid: 0abf980d-c2fb-4a4e-b5be-7405d34ecd5b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: tour_types
+label: 'Tour types'
+type: 'canonical_entities:node'
+pattern: 'tour-type/[node:title]'
+selection_criteria:
+  057f510c-61a7-4106-9f54-3eb55959d987:
+    id: node_type
+    bundles:
+      tour_type: tour_type
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 057f510c-61a7-4106-9f54-3eb55959d987
+selection_logic: and
+weight: -5
+relationships: {  }

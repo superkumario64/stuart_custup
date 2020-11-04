@@ -1,0 +1,17 @@
+uuid: ad3a9b1b-7270-43bb-be54-3c64e6f56869
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Tour type'
+type: tour_type
+description: 'Use Tour Types for information about the kinds of tours we do.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

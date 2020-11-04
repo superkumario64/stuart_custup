@@ -1,0 +1,11 @@
+{#
+/**
+ * @file
+ * Profile campus directory block.
+ */
+#}
+<ul>
+{% for people in cruzids %}
+  <li>{{ people.cn }} <br> <img src="data:image/jpeg;base64,{{ people.b64image }}"/></li>
+{% endfor %}
+</ul>

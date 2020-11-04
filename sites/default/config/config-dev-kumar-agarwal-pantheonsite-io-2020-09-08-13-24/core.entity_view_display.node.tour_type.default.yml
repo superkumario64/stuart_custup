@@ -1,0 +1,37 @@
+uuid: 68f43751-51b5-433d-9531-1caa864bf348
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.tour_type.body
+    - field.field.node.tour_type.field_requirements
+    - node.type.tour_type
+  module:
+    - text
+    - user
+id: node.tour_type.default
+targetEntityType: node
+bundle: tour_type
+mode: default
+content:
+  body:
+    label: above
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_requirements:
+    weight: 1
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

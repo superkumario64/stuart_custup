@@ -1,0 +1,10 @@
+uuid: 2ae41d27-9928-466e-bee4-980b0497698b
+langcode: en
+status: true
+dependencies: {  }
+id: tour_type_creator
+label: 'Tour type creator'
+weight: 3
+is_admin: null
+permissions:
+  - 'edit own tour_type content'

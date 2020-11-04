@@ -1,0 +1,18 @@
+uuid: 4b879f89-147b-4269-8031-f16e7f2cdaa5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.featured_adventurer
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.featured_adventurer
+target_entity_type_id: node
+target_bundle: featured_adventurer
+default_langcode: site_default
+language_alterable: false

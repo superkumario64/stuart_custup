@@ -1,0 +1,60 @@
+uuid: a551c586-62a1-4379-a15f-0ded369d83c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.field.contact_message.feedback.field_tour_id
+    - field.field.contact_message.feedback.field_what_would_you_like_to_do_
+id: contact_message.feedback.default
+targetEntityType: contact_message
+bundle: feedback
+mode: default
+content:
+  field_tour_id:
+    weight: 3
+    settings:
+      size: 20
+      placeholder: POGO19-2
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_what_would_you_like_to_do_:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  mail:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  message:
+    type: string_textarea
+    weight: 4
+    settings:
+      rows: 12
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+  name:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  preview:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  copy: true
+  subject: true

@@ -1,0 +1,40 @@
+uuid: 12bf9d80-2507-4f6d-bd6f-f61eee9fc7b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.featured_adventurer.body
+    - field.field.node.featured_adventurer.field_photo
+    - node.type.featured_adventurer
+  module:
+    - image
+    - text
+    - user
+id: node.featured_adventurer.default
+targetEntityType: node
+bundle: featured_adventurer
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_photo:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

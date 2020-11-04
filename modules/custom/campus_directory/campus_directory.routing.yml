@@ -1,0 +1,15 @@
+campus_directory.render:
+  path: '/directory/{name}'
+  defaults:
+    _controller: '\Drupal\campus_directory\Controller\CampusDirectory::render'
+    _title: 'Campus Directory Page'
+  requirements:
+    _permission: 'access content'
+
+campus_directory.settings:
+  path: '/admin/config/campus_directory/settings'
+  defaults:
+    _form: '\Drupal\campus_directory\Form\CampusDirectoryConfigurationForm'
+    _title: 'Settings'
+  requirements:
+    _permission: 'administer'

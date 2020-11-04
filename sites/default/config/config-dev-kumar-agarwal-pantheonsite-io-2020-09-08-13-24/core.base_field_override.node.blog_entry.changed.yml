@@ -1,0 +1,18 @@
+uuid: 5d3424b5-065e-4dd9-8c7b-d250de273949
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blog_entry
+id: node.blog_entry.changed
+field_name: changed
+entity_type: node
+bundle: blog_entry
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,23 @@
+uuid: d8b14114-1f1c-460f-a559-b0732dd74557
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact_storage
+third_party_settings:
+  contact_storage:
+    submit_text: Send
+    show_preview: false
+    disabled_form_message: 'This contact form has been disabled.'
+    maximum_submissions_user: 0
+    page_autoreply_format: plain_text
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Contact MagnifAscent'
+recipients:
+  - kagarwal@ucsc.edu
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: /thank-you-contacting-us

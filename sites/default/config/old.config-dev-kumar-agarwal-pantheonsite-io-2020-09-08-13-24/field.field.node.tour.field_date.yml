@@ -1,0 +1,21 @@
+uuid: 94b4368f-4e6b-4e9d-95f3-4e3df60a765b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date
+    - node.type.tour
+  module:
+    - datetime
+id: node.tour.field_date
+field_name: field_date
+entity_type: node
+bundle: tour
+label: Date
+description: 'The date the tour begins.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

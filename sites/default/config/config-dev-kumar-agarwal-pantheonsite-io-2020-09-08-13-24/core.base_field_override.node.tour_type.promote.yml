@@ -1,0 +1,22 @@
+uuid: fcaba281-9b77-460c-afde-7f5cb721e586
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.tour_type
+id: node.tour_type.promote
+field_name: promote
+entity_type: node
+bundle: tour_type
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

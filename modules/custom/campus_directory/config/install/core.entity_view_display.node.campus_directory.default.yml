@@ -1,0 +1,46 @@
+uuid: d86ec3c0-1eab-48e5-bf81-7fb93fc2f56b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.campus_directory.body
+    - field.field.node.campus_directory.field_cruzids
+    - field.field.node.campus_directory.field_directory_layout
+    - node.type.campus_directory
+  module:
+    - options
+    - text
+    - user
+_core:
+  default_config_hash: jrcSzVQ0oNm-5howcCrRQP_YkK4U1oiavrVLKqwU0ko
+id: node.campus_directory.default
+targetEntityType: node
+bundle: campus_directory
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_cruzids:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_directory_layout:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  langcode: true

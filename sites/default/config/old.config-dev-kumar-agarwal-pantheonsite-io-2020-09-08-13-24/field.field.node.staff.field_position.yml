@@ -1,0 +1,21 @@
+uuid: 9438eeef-fe75-4362-91b8-9db4e7c5116d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_position
+    - node.type.staff
+  module:
+    - options
+id: node.staff.field_position
+field_name: field_position
+entity_type: node
+bundle: staff
+label: Position
+description: 'The user''s role at MagnifAscent'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

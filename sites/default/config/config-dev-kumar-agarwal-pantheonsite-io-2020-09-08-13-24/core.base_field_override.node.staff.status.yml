@@ -1,0 +1,22 @@
+uuid: 0a0858eb-5673-402c-8c3f-888d452f8b56
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.staff
+id: node.staff.status
+field_name: status
+entity_type: node
+bundle: staff
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

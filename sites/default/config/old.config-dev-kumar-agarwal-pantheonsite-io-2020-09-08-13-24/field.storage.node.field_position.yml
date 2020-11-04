@@ -1,0 +1,39 @@
+uuid: 94f2dda3-99d7-4cf8-9f71-46ff5f0dd159
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_position
+field_name: field_position
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Guide
+      label: Guide
+    -
+      value: Founder
+      label: Founder
+    -
+      value: 'Public Relations'
+      label: 'Public Relations'
+    -
+      value: 'Website Administrator'
+      label: 'Website Administrator'
+    -
+      value: 'Content and Social Media'
+      label: 'Content and Social Media'
+    -
+      value: Psychologist
+      label: Psychologist
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

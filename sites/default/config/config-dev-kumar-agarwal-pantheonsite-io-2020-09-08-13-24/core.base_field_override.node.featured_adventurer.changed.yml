@@ -1,0 +1,18 @@
+uuid: f3ca3016-9c39-4b9c-9d9a-da16831ee518
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.featured_adventurer
+id: node.featured_adventurer.changed
+field_name: changed
+entity_type: node
+bundle: featured_adventurer
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

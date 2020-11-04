@@ -1,0 +1,7 @@
+cd_integration.render:
+  path: '/directory1'
+  defaults:
+    _controller: '\Drupal\cd_integration\Controller\CdIntegration::render'
+    _title: 'Campus Directory Page'
+  requirements:
+    _permission: 'access content'

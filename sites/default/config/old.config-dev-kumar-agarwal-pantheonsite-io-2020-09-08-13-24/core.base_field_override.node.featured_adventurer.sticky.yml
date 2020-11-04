@@ -1,0 +1,22 @@
+uuid: f2618114-9b40-43ba-bcb3-d38dab4ecd4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.featured_adventurer
+id: node.featured_adventurer.sticky
+field_name: sticky
+entity_type: node
+bundle: featured_adventurer
+label: 'Sticky at top of lists'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

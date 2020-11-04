@@ -1,0 +1,22 @@
+uuid: 00a71213-fed0-42ae-93d6-b7c567bddc4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.staff
+id: node.staff.promote
+field_name: promote
+entity_type: node
+bundle: staff
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

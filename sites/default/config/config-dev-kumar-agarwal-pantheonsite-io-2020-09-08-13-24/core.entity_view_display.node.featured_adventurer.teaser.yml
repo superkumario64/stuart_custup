@@ -1,0 +1,33 @@
+uuid: f0bb974f-a272-4a31-8ee6-f188c03a9c04
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.featured_adventurer.body
+    - field.field.node.featured_adventurer.field_photo
+    - node.type.featured_adventurer
+  module:
+    - text
+    - user
+id: node.featured_adventurer.teaser
+targetEntityType: node
+bundle: featured_adventurer
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_photo: true
+  langcode: true

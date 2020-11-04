@@ -1,0 +1,20 @@
+uuid: 9622e51d-a4ad-402f-b534-9e4d2b3cd2b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.featured_adventurer
+  module:
+    - path
+id: node.featured_adventurer.path
+field_name: path
+entity_type: node
+bundle: featured_adventurer
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

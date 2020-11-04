@@ -1,0 +1,16 @@
+uuid: c65929ef-c6c2-40d0-ad0d-89e87971cfb6
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - campus_directory
+_core:
+  default_config_hash: FAIQ7HrgXa6vPZ67xlnh6vMIIcWccCRFgIQ5fMh1CCU
+name: 'Campus Directory'
+type: campus_directory
+description: 'Content type that can be used to add a <em>Campus Directory</em> page.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,28 @@
+uuid: 97ac6b81-1fde-401a-aeec-833050e1f60a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_user_account
+    - node.type.staff
+id: node.staff.field_user_account
+field_name: field_user_account
+entity_type: node
+bundle: staff
+label: 'User account'
+description: 'Add a user account for staff listing to include a link to the users personal contact form.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

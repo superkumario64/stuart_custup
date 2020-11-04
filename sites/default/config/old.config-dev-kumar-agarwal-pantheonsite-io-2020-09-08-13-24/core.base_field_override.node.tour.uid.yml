@@ -1,0 +1,20 @@
+uuid: 2dcf6c09-fdb6-40df-82c0-3bb3fd83e491
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.tour
+id: node.tour.uid
+field_name: uid
+entity_type: node
+bundle: tour
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

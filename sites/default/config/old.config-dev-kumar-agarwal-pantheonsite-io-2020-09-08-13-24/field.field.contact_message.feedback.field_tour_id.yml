@@ -1,0 +1,19 @@
+uuid: 1aac43b3-8c7a-496d-bc87-500bd1e124e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_tour_id
+id: contact_message.feedback.field_tour_id
+field_name: field_tour_id
+entity_type: contact_message
+bundle: feedback
+label: 'Tour ID'
+description: 'If you would like to register for a tour, enter the tour ID on the <a href="/calendar">tour calendar</a>.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

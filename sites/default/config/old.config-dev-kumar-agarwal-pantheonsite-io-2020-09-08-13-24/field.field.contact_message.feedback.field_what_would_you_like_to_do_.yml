@@ -1,0 +1,21 @@
+uuid: 83b62612-e323-4373-b8fe-7a6d2c4e393b
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_what_would_you_like_to_do_
+  module:
+    - options
+id: contact_message.feedback.field_what_would_you_like_to_do_
+field_name: field_what_would_you_like_to_do_
+entity_type: contact_message
+bundle: feedback
+label: 'What would you like to do?'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

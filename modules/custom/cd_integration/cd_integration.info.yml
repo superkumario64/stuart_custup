@@ -1,0 +1,6 @@
+name: Campus Directory Integration
+type: module
+description: 'Adds Campus Directory Integration for Campus Drupal.'
+core: 8.x
+dependencies:
+  - node

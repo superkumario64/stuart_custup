@@ -1,0 +1,24 @@
+uuid: 6e9406a0-62e6-4ce9-b2c0-78d3a7902ddc
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.tours
+  module:
+    - views
+  theme:
+    - bartik
+id: views_block__tours_block_1
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:tours-block_1'
+settings:
+  id: 'views_block:tours-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 562783da-df8a-47e2-bfde-5043c79f9d78
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.featured_adventurer
+id: node.featured_adventurer.promote
+field_name: promote
+entity_type: node
+bundle: featured_adventurer
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

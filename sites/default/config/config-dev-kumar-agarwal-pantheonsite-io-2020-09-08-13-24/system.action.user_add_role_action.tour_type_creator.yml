@@ -1,0 +1,14 @@
+uuid: 50d8ffbb-468d-4615-a5c3-19831d8b515e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.tour_type_creator
+  module:
+    - user
+id: user_add_role_action.tour_type_creator
+label: 'Add the Tour type creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: tour_type_creator

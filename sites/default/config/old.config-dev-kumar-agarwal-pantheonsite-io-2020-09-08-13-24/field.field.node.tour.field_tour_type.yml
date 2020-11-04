@@ -1,0 +1,28 @@
+uuid: cc81a850-d2bf-4b21-a28d-686504783d79
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tour_type
+    - node.type.tour
+    - node.type.tour_type
+id: node.tour.field_tour_type
+field_name: field_tour_type
+entity_type: node
+bundle: tour
+label: 'Tour Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      tour_type: tour_type
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

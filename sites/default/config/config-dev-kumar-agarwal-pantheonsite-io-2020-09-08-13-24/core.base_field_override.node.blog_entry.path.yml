@@ -1,0 +1,20 @@
+uuid: 520e5fea-1b18-49f6-be48-bd7ead736b1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blog_entry
+  module:
+    - path
+id: node.blog_entry.path
+field_name: path
+entity_type: node
+bundle: blog_entry
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

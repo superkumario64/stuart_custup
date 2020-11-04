@@ -1,0 +1,12 @@
+uuid: 64e7d37b-cd45-4c48-ab37-def7b041acf5
+langcode: en
+status: true
+dependencies: {  }
+id: blog_entry
+label: 'Blog Entry'
+code: ".field.field--name-field-blog-images.field--type-image.field--label-above {\n    float: none;\n}\n\n.field--name-field-blog-images .field__item {\n  display: inline;\n}"
+conditions_require_all: true
+conditions: {  }
+contexts: {  }
+media: all
+preprocess: false

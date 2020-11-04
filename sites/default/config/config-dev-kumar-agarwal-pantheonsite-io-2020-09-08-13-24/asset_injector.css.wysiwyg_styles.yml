@@ -1,0 +1,12 @@
+uuid: b08cd138-bfe1-4a59-913e-aff8e2a6c5ca
+langcode: en
+status: true
+dependencies: {  }
+id: wysiwyg_styles
+label: 'WYSIWYG styles'
+code: ".ma-callout {\n  text-align:center;\n  padding: 20px;\n  margin: 20px;\n  border: 1px solid #333;\n}"
+conditions_require_all: true
+conditions: {  }
+contexts: {  }
+media: all
+preprocess: true

@@ -1,0 +1,25 @@
+uuid: 1a369b32-1c3a-450a-ac98-cb5cd40d3f50
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.campus_directory
+  module:
+    - text
+_core:
+  default_config_hash: 9OtJR0EnTVe59IaUBGffIBaFYN5LTa1ED_sVCmlxGGs
+id: node.campus_directory.body
+field_name: body
+entity_type: node
+bundle: campus_directory
+label: 'CruzIDs go here (Comma Seperated):'
+description: 'Comma Seperated list of CruzIDs'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

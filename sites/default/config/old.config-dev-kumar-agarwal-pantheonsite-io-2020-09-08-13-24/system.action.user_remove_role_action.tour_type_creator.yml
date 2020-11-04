@@ -1,0 +1,14 @@
+uuid: baef7a2b-a1b0-4312-9bd5-cf78d0f2f083
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.tour_type_creator
+  module:
+    - user
+id: user_remove_role_action.tour_type_creator
+label: 'Remove the Tour type creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: tour_type_creator

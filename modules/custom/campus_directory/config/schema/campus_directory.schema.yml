@@ -1,0 +1,7 @@
+campus_directory.settings:
+  type: config_entity
+  label: 'Campus Directory settings'
+  mapping:
+    lpad_password:
+      type: string
+      label: 'LDAP User Password'

@@ -1,0 +1,35 @@
+uuid: 8209ee40-bc08-4bbb-85eb-dbf1c0692269
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.campus_directory.body
+    - field.field.node.campus_directory.field_cruzids
+    - field.field.node.campus_directory.field_directory_layout
+    - node.type.campus_directory
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: 1NxzB5o7GO23G7XhV7BweF4KyzdVR3r0C5Fdp7Uj7-A
+id: node.campus_directory.teaser
+targetEntityType: node
+bundle: campus_directory
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_cruzids: true
+  field_directory_layout: true
+  langcode: true

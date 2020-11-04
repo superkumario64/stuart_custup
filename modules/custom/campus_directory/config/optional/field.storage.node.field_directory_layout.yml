@@ -1,0 +1,30 @@
+uuid: 0dcf3af4-8e32-4128-8858-0f3099eb060b
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_directory_layout
+field_name: field_directory_layout
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: list
+      label: List
+    -
+      value: tiled
+      label: Tiled
+    -
+      value: table
+      label: Table
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

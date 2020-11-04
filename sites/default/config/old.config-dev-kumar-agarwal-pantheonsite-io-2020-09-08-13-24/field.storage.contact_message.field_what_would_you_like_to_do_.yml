@@ -1,0 +1,30 @@
+uuid: 49876d01-1eb0-4945-9d17-28d7a84d60be
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+    - options
+id: contact_message.field_what_would_you_like_to_do_
+field_name: field_what_would_you_like_to_do_
+entity_type: contact_message
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Register for a tour'
+      label: 'Register for a tour'
+    -
+      value: 'Submit feedback for a tour'
+      label: 'Submit feedback for a tour'
+    -
+      value: 'Ask for more information'
+      label: 'Ask for more information'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Implementing hook_theme().
+ */
+function campus_directory_theme($existing, $type, $theme, $path) {
+
+    return array(
+      'campus_directory' => array(
+        'variables' => array('items' => array(), 'title' => '', 'param' => ''),
+      ),
+      'campus_directory_block' => array(
+        'variables' => array('cruzids' => array()),
+        'template' => 'block--campus-directory',
+      )
+    );
+  }

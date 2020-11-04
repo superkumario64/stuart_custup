@@ -1,0 +1,20 @@
+uuid: f8e25ee0-e625-4e68-8de6-f900e179fee8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.staff
+  module:
+    - path
+id: node.staff.path
+field_name: path
+entity_type: node
+bundle: staff
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

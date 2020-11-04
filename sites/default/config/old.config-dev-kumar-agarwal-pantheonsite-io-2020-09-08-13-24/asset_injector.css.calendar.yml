@@ -1,0 +1,18 @@
+uuid: d6eaa62e-6835-44ec-ae39-4e0b7f168771
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: calendar
+label: Calendar
+code: "div#edit-actions {\n  clear: none;\n}"
+conditions_require_all: true
+conditions:
+  request_path:
+    id: request_path
+    pages: /calendar
+    negate: false
+contexts: {  }
+media: all
+preprocess: false

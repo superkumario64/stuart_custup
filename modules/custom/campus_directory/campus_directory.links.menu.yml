@@ -1,0 +1,6 @@
+coffee.settings:
+  title: CampusDirectory
+  description: 'Campus Directory Config'
+  route_name: campus_directory.settings
+  parent: system.admin_config_ui
+  menu_name: admin

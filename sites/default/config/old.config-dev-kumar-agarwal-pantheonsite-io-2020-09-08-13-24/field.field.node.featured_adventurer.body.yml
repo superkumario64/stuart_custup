@@ -1,0 +1,23 @@
+uuid: 75fe6964-42cd-4fea-82df-85074f422847
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.featured_adventurer
+  module:
+    - text
+id: node.featured_adventurer.body
+field_name: body
+entity_type: node
+bundle: featured_adventurer
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

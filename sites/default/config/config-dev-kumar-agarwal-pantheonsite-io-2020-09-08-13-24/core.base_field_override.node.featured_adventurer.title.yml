@@ -1,0 +1,18 @@
+uuid: d0adc2c6-83a5-4c5c-91cf-2e08d805e3a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.featured_adventurer
+id: node.featured_adventurer.title
+field_name: title
+entity_type: node
+bundle: featured_adventurer
+label: 'Full name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

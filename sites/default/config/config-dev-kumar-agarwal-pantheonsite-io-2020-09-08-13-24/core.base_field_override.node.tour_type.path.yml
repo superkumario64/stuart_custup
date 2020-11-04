@@ -1,0 +1,20 @@
+uuid: f80e8216-aee5-4e66-a81c-f32928fd51e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.tour_type
+  module:
+    - path
+id: node.tour_type.path
+field_name: path
+entity_type: node
+bundle: tour_type
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

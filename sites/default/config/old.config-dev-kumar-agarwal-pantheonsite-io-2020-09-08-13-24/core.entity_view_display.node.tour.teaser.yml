@@ -1,0 +1,29 @@
+uuid: 24aa17be-8183-4409-abf5-3c6acbd0d322
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tour.field_date
+    - field.field.node.tour.field_days
+    - field.field.node.tour.field_guide
+    - field.field.node.tour.field_tour_type
+    - node.type.tour
+  module:
+    - user
+id: node.tour.teaser
+targetEntityType: node
+bundle: tour
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_date: true
+  field_days: true
+  field_guide: true
+  field_tour_type: true
+  langcode: true

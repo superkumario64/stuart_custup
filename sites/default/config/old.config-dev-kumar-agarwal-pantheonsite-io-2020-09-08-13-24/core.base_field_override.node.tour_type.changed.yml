@@ -1,0 +1,18 @@
+uuid: 65b4976b-c26e-4730-ba9f-3e34c4b75d03
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.tour_type
+id: node.tour_type.changed
+field_name: changed
+entity_type: node
+bundle: tour_type
+label: Changed
+description: 'The time that the node was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed
